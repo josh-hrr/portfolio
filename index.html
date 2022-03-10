@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <!-- Font awesome to use icons easily-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+    <!-- SKILLS ICONS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+    <!-- SOCIALS ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"> 
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="wrapper">  
+        <!-- header starts -->
+        <header class="header-container">
+            <div class="logo"> 
+                <h3> &lt; joshdev &gt;  </h3>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Josue Herrera</strong>
+            </h1> 
+            <p class="section__subtitle section__subtitle--intro">front-end developer</p>
+            <img class="intro__image" src="/portfolio/img/foto-de-perfil.jpeg" alt="a picture">          
+            
+        </section>
+
+        <!-- Services Skills -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Skills</h2>
+
+            <!--
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>  COMMENT THIS / service 
+                
+                <div class="service">
+                    <h3>Profesional Landing Pages</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>  COMMENT THIS  / service  
+                
+                <div class="service">
+                    <h3>Wix</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>   service 
+            </div>  COMMENT THIS services  
+            -->
+            
+            <div class="skills-icons">
+                <i class="css-icon devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-visualstudio-plain colored"></i>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+
+         <!-- About me -->
+         <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Front-end developer from Guatemala City</p>
+
+            <div class="about-me__body">
+                <p>
+                Hi, I am Josue Herrera. Current front-end developer from Guatemala living in Guatemala City. I spend my time on personal projects and learning more about Front-end and how to improve my skills. I am passionate about building accessible, user-friendly websites and web applications. My skills include HTML, CSS, and a bit of Javascript. However, I am constantly learning and am open to new technologies. If you think I would be a great fit for your team feel free to <strong><a class="about-me__links" href="#contact">contact me</a></strong> so we can chat. 
+                <br>
+                <br>
+                As a self-taught developer I am a fast, effecient and resourceful learner. With my abilities and skills I am able to solve problems quickly. In my free time I enjoy spending time with my family, watching movies or tv shows, and build mobile friendly websites by using pure HTML and CSS. CSS is my creative outlet. Check out some of <strong><a class="about-me__links" href="#work">my work.</a></strong>
+                </p>
+            </div>
+
+            <img class="about__image" src="/portfolio/img/foto-de-perfil2.jpeg" alt="">
+         </section>
+
+         <!-- Portfolio -->
+         <section class="my-work" id="work">
+             <h2 class="section__title">My work</h2>
+             <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+             <div class="portfolio">
+                 <!-- Portfolio item 01 -->
+                 <a href="portfolio-item.html" class="portfolio__item">
+                     <img src="/portfolio/img/Chrome-extension-image.PNG" alt="" class="portfolio__img">
+                 </a>
+
+                 <!-- Portfolio item 02 //-->
+                 <a href="/portfolio/portfolio-item2.html" class="portfolio__item">
+                    <img src="/portfolio/img/survey-form.JPG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="/portfolio/portfolio-item3.html" class="portfolio__item">
+                    <img src="/portfolio/img/landing3.JPG" alt="" class="portfolio__img">
+                </a>
+ 
+                
+                    
+                <!--  Portfolio item 04 -->
+                <a href="/portfolio/portfolio-item4.html" class="portfolio__item">
+                    <img src="/portfolio/img/codepen.png" alt="more" class="portfolio__img">
+                    
+                </a> 
+
+                <!-- 
+
+                comment-- Portfolio item 05
+                <a href="#" class="portfolio__item">
+                    <img src="/portfolio/img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+
+                comment-- Portfolio item 06
+                <a href="#" class="portfolio__item">
+                    <img src="/portfolio/img/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+
+                comment-- Portfolio item 07 
+                <a href="#" class="portfolio__item">
+                    <img src="/portfolio/img/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+
+                comment-- Portfolio item 08 
+                <a href="#" class="portfolio__item">
+                    <img src="/portfolio/img/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+
+                comment-- Portfolio item 09 
+                <a href="#" class="portfolio__item">
+                    <img src="/portfolio/img/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>
+
+                comment-- Portfolio item 10 
+                <a href="#" class="portfolio__item">
+                    <img src="/portfolio/img/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a>
+
+                -->
+
+             </div>
+         </section>
+
+         <!-- Footer -->
+         <footer id="contact">
+             <a href="mailto:josuealexander1215@gmail.com" class="footer__link">josuealexander1215@gmail.com</a>
+             <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/josu-herrera/">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/josue-herreraa/">
+                        <i class="devicon-linkedin-plain"></i>
+                    </a>
+                </li>
+                <!-- 
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                -->
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/josh-hrr">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+             </ul> 
+         </footer>
+    </div>
+</body>
+
+<script src="/portfolio/script.js"></script>
+</html>
